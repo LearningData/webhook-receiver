@@ -1,5 +1,9 @@
+try:
+    from configparser import ConfigParser
+except:
+    from ConfigParser import ConfigParser
+
 import os
-from configparser import ConfigParser
 from flask import Flask, request
 app = Flask(__name__)
 

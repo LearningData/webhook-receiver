@@ -1,4 +1,3 @@
-import json
 import os
 from configparser import ConfigParser
 from flask import Flask, request
